@@ -1,0 +1,23 @@
+{
+  "name": "星环井字棋",
+  "short_name": "星环井字棋",
+  "description": "为 PICO WebSpatial 打造的循环消子空间井字棋",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#060914",
+  "background_color": "#060914",
+  "icons": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "xr_spatial_scene": {
+    "default_size": { "width": "1280px", "height": "820px" },
+    "worldScaling": "automatic",
+    "worldAlignment": "adaptive"
+  }
+}
